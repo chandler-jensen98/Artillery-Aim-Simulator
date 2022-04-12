@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1433,         50]
-NotebookOptionsPosition[       951,         33]
-NotebookOutlinePosition[      1356,         49]
-CellTagsIndexPosition[      1313,         46]
+NotebookDataLength[      2826,         83]
+NotebookOptionsPosition[      2109,         62]
+NotebookOutlinePosition[      2530,         78]
+CellTagsIndexPosition[      2487,         75]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28,11 +28,40 @@ f2df6004ba16"],
 Cell["Collin Davis and Chandler Jensen", "Subtitle",
  CellChangeTimes->{{3.8587919938285875`*^9, 
   3.8587919999700108`*^9}},ExpressionUUID->"e6cca0f0-9802-44ea-bc5a-\
-493630ef93b3"]
+493630ef93b3"],
+
+Cell[CellGroupData[{
+
+Cell["General Information:", "Section",
+ CellChangeTimes->{{3.8587932929248343`*^9, 3.8587933150396905`*^9}, {
+  3.858793979987093*^9, 
+  3.858793994985899*^9}},ExpressionUUID->"6b8a7d9e-baae-4801-969a-\
+0a4c7673e31a"],
+
+Cell["\<\
+I believe the easiest way to go about this project is to pick an artillery \
+weapon currently in use by the United States military and use it for our \
+simulation. Perhaps if we were to continue the project beyond the class we \
+could add different weapons and allow the user to pick, but let\
+\[CloseCurlyQuote]s not get ahead of ourselves.
+
+Wikipedia has some good info on different artillery weapons, I think the M777 \
+Howitzer is a good choice, coupled with the 155mm M107 shell. It has the \
+following specifications (according to Wikipedia):
+Range of Elevation: 0\[Degree] - +71.7\[Degree]
+Muzzle Velocity: 827 m/s
+Effective Firing Range: 24km
+\
+\>", "Text",
+ CellChangeTimes->{{3.858794005438548*^9, 3.8587941375329666`*^9}, {
+  3.8587941973001137`*^9, 3.858794206744206*^9}, {3.858794250446331*^9, 
+  3.858794347251739*^9}},ExpressionUUID->"f76d6f9e-5975-479b-a576-\
+106825876e57"]
+}, Closed]]
 }, Open  ]]
 },
 WindowSize->{571.8, 509.4},
-WindowMargins->{{284.4, Automatic}, {18, Automatic}},
+WindowMargins->{{22.8, Automatic}, {28.800000000000068`, Automatic}},
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"bbb97d4d-c578-4b48-bfce-b5b8ffad21d2"
@@ -50,11 +79,13 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 170, 3, 97, "Title",ExpressionUUID->"3b2f0423-a067-4af5-8ea2-f2df6004ba16"],
-Cell[753, 27, 182, 3, 53, "Subtitle",ExpressionUUID->"e6cca0f0-9802-44ea-bc5a-493630ef93b3"]
+Cell[753, 27, 182, 3, 53, "Subtitle",ExpressionUUID->"e6cca0f0-9802-44ea-bc5a-493630ef93b3"],
+Cell[CellGroupData[{
+Cell[960, 34, 218, 4, 67, "Section",ExpressionUUID->"6b8a7d9e-baae-4801-969a-0a4c7673e31a"],
+Cell[1181, 40, 900, 18, 311, "Text",ExpressionUUID->"f76d6f9e-5975-479b-a576-106825876e57"]
+}, Closed]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
