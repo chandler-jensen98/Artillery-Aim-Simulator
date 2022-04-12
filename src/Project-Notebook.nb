@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2826,         83]
-NotebookOptionsPosition[      2109,         62]
-NotebookOutlinePosition[      2530,         78]
-CellTagsIndexPosition[      2487,         75]
+NotebookDataLength[      4461,        128]
+NotebookOptionsPosition[      3522,        103]
+NotebookOutlinePosition[      3943,        119]
+CellTagsIndexPosition[      3900,        116]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -57,7 +57,48 @@ Effective Firing Range: 24km
   3.8587941973001137`*^9, 3.858794206744206*^9}, {3.858794250446331*^9, 
   3.858794347251739*^9}},ExpressionUUID->"f76d6f9e-5975-479b-a576-\
 106825876e57"]
-}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Global Variables:", "Section",
+ CellChangeTimes->{{3.8587944751352596`*^9, 
+  3.8587944799310403`*^9}},ExpressionUUID->"0a68ed2b-4f5b-4c04-bfcb-\
+a49ef99356b7"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"V0", "=", "827"}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "V0", " ", "is", " ", "the", " ", "initial", " ", "velocity", " ", "of", 
+    " ", "the", " ", "shell"}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"maxRange", "=", "24000"}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{"maximum", " ", "range", " ", "of", " ", "the", " ", "cannon"}], 
+   " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"elevationMin", "=", 
+    RowBox[{"0", "Degree"}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "minimum", " ", "angle", " ", "between", " ", "horizontal", " ", "plane", 
+    " ", "and", " ", "cannon"}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"elevationMax", "=", 
+   RowBox[{"71.7", "Degree"}]}], ";", " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "maximum", " ", "angle", " ", "between", " ", "horizontal", " ", "plane", 
+    " ", "and", " ", "cannon"}], " ", "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.858794489815532*^9, 3.858794628745904*^9}, {
+  3.858794661099673*^9, 3.858794705332059*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"40abb526-b869-4001-a465-3e9e0a597418"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{571.8, 509.4},
@@ -83,7 +124,11 @@ Cell[753, 27, 182, 3, 53, "Subtitle",ExpressionUUID->"e6cca0f0-9802-44ea-bc5a-49
 Cell[CellGroupData[{
 Cell[960, 34, 218, 4, 67, "Section",ExpressionUUID->"6b8a7d9e-baae-4801-969a-0a4c7673e31a"],
 Cell[1181, 40, 900, 18, 311, "Text",ExpressionUUID->"f76d6f9e-5975-479b-a576-106825876e57"]
-}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2118, 63, 166, 3, 53, "Section",ExpressionUUID->"0a68ed2b-4f5b-4c04-bfcb-a49ef99356b7"],
+Cell[2287, 68, 1207, 31, 183, "Input",ExpressionUUID->"40abb526-b869-4001-a465-3e9e0a597418"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
