@@ -1,0 +1,60 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1433,         50]
+NotebookOptionsPosition[       951,         33]
+NotebookOutlinePosition[      1356,         49]
+CellTagsIndexPosition[      1313,         46]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Artillery Aim Simulator", "Title",
+ CellChangeTimes->{{3.8587919755694294`*^9, 
+  3.8587919805753007`*^9}},ExpressionUUID->"3b2f0423-a067-4af5-8ea2-\
+f2df6004ba16"],
+
+Cell["Collin Davis and Chandler Jensen", "Subtitle",
+ CellChangeTimes->{{3.8587919938285875`*^9, 
+  3.8587919999700108`*^9}},ExpressionUUID->"e6cca0f0-9802-44ea-bc5a-\
+493630ef93b3"]
+}, Open  ]]
+},
+WindowSize->{571.8, 509.4},
+WindowMargins->{{284.4, Automatic}, {18, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"bbb97d4d-c578-4b48-bfce-b5b8ffad21d2"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 170, 3, 97, "Title",ExpressionUUID->"3b2f0423-a067-4af5-8ea2-f2df6004ba16"],
+Cell[753, 27, 182, 3, 53, "Subtitle",ExpressionUUID->"e6cca0f0-9802-44ea-bc5a-493630ef93b3"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
