@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5609,        156]
-NotebookOptionsPosition[      4433,        126]
-NotebookOutlinePosition[      4870,        143]
-CellTagsIndexPosition[      4827,        140]
+NotebookDataLength[      6117,        165]
+NotebookOptionsPosition[      4847,        134]
+NotebookOutlinePosition[      5284,        151]
+CellTagsIndexPosition[      5241,        148]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,19 +46,21 @@ could add different weapons and allow the user to pick, but let\
 \[CloseCurlyQuote]s not get ahead of ourselves.
 
 Wikipedia has some good info on different artillery weapons, I think the M777 \
-Howitzer is a good choice, coupled with the 155mm M107 shell. It has the \
+Howitzer is a good choice, coupled with the 155mm M795 shell. It has the \
 following specifications (according to Wikipedia):
 Range of Elevation: 0\[Degree] - +71.7\[Degree]
 Muzzle Velocity: 827 m/s
-Effective Firing Range: 24.7km
+Effective Firing Range: 22.5km
 \
 \>", "Text",
  CellChangeTimes->{{3.858794005438548*^9, 3.8587941375329666`*^9}, {
   3.8587941973001137`*^9, 3.858794206744206*^9}, {3.858794250446331*^9, 
-  3.858794347251739*^9}, {3.858795328440618*^9, 
-  3.858795330961281*^9}},ExpressionUUID->"f76d6f9e-5975-479b-a576-\
+  3.858794347251739*^9}, {3.858795328440618*^9, 3.858795330961281*^9}, {
+  3.8587958270502334`*^9, 3.8587958288778954`*^9}, {3.8587958663919544`*^9, 
+  3.8587958666623526`*^9}, {3.858795969867024*^9, 
+  3.858795971734426*^9}},ExpressionUUID->"f76d6f9e-5975-479b-a576-\
 106825876e57"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -76,12 +78,10 @@ Cell[BoxData[{
    "V0", " ", "is", " ", "the", " ", "initial", " ", "velocity", " ", "of", 
     " ", "the", " ", "shell"}], " ", "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{
-   RowBox[{"maxRange", "=", "24700"}], ";"}], " ", 
+  RowBox[{"maxRange", "=", "22500"}], ";", " ", 
   RowBox[{"(*", " ", 
    RowBox[{"maximum", " ", "range", " ", "of", " ", "the", " ", "cannon"}], 
-   " ", "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
+   " ", "*)"}], "\[IndentingNewLine]", 
   RowBox[{"minRange", "=", "100"}], " ", ";", 
   RowBox[{"(*", " ", 
    RowBox[{
@@ -106,8 +106,10 @@ Cell[BoxData[{
     " ", "and", " ", "cannon"}], " ", "*)"}]}]}], "Input",
  CellChangeTimes->{{3.858794489815532*^9, 3.858794628745904*^9}, {
   3.858794661099673*^9, 3.858794705332059*^9}, {3.8587953239492855`*^9, 
-  3.8587953491694455`*^9}, {3.8587953931629367`*^9, 3.8587954272376275`*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"40abb526-b869-4001-a465-3e9e0a597418"]
+  3.8587953491694455`*^9}, {3.8587953931629367`*^9, 3.8587954272376275`*^9}, {
+  3.8587959741643343`*^9, 
+  3.8587959756027365`*^9}},ExpressionUUID->"40abb526-b869-4001-a465-\
+3e9e0a597418"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -116,6 +118,12 @@ Cell["Random Conditions Generator:", "Section",
  CellChangeTimes->{{3.858795076534198*^9, 
   3.8587950846617565`*^9}},ExpressionUUID->"6a1cbe25-49c6-4cf0-be9a-\
 79ab5dc76cb8"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8587955061873956`*^9, 3.858795548428774*^9}, {
+  3.858795595711135*^9, 3.858795635439398*^9}, {3.858795982063819*^9, 
+  3.8587959835616617`*^9}},ExpressionUUID->"9dcf9382-b205-4c0c-8a6b-\
+a0928c3393c5"],
 
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.858795127886103*^9, 
@@ -147,15 +155,16 @@ Cell[580, 22, 170, 3, 97, "Title",ExpressionUUID->"3b2f0423-a067-4af5-8ea2-f2df6
 Cell[753, 27, 182, 3, 53, "Subtitle",ExpressionUUID->"e6cca0f0-9802-44ea-bc5a-493630ef93b3"],
 Cell[CellGroupData[{
 Cell[960, 34, 218, 4, 67, "Section",ExpressionUUID->"6b8a7d9e-baae-4801-969a-0a4c7673e31a"],
-Cell[1181, 40, 951, 19, 219, "Text",ExpressionUUID->"f76d6f9e-5975-479b-a576-106825876e57"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[2169, 64, 166, 3, 53, "Section",ExpressionUUID->"0a68ed2b-4f5b-4c04-bfcb-a49ef99356b7"],
-Cell[2338, 69, 1698, 40, 163, "Input",ExpressionUUID->"40abb526-b869-4001-a465-3e9e0a597418"]
+Cell[1181, 40, 1103, 21, 219, "Text",ExpressionUUID->"f76d6f9e-5975-479b-a576-106825876e57"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4073, 114, 175, 3, 67, "Section",ExpressionUUID->"6a1cbe25-49c6-4cf0-be9a-79ab5dc76cb8"],
-Cell[4251, 119, 154, 3, 28, "Input",ExpressionUUID->"9572be15-9098-4e31-b848-24bc2439635c"]
+Cell[2321, 66, 166, 3, 67, "Section",ExpressionUUID->"0a68ed2b-4f5b-4c04-bfcb-a49ef99356b7"],
+Cell[2490, 71, 1706, 40, 107, "Input",ExpressionUUID->"40abb526-b869-4001-a465-3e9e0a597418"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4233, 116, 175, 3, 67, "Section",ExpressionUUID->"6a1cbe25-49c6-4cf0-be9a-79ab5dc76cb8"],
+Cell[4411, 121, 251, 4, 28, "Input",ExpressionUUID->"9dcf9382-b205-4c0c-8a6b-a0928c3393c5"],
+Cell[4665, 127, 154, 3, 28, "Input",ExpressionUUID->"9572be15-9098-4e31-b848-24bc2439635c"]
 }, Open  ]]
 }, Open  ]]
 }
