@@ -1,0 +1,9 @@
+To Do:
+
+Collin:
+Wind Resistance
+Gravity
+Angle and Direction Calculations
+
+Chandler:
+Random Condition Generation, 3D Plots and Visuals
