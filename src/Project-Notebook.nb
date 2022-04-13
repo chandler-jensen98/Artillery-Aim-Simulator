@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    131251,       2332]
-NotebookOptionsPosition[    129567,       2293]
-NotebookOutlinePosition[    129973,       2309]
-CellTagsIndexPosition[    129930,       2306]
+NotebookDataLength[    132048,       2352]
+NotebookOptionsPosition[    130361,       2313]
+NotebookOutlinePosition[    130767,       2329]
+CellTagsIndexPosition[    130724,       2326]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2283,10 +2283,30 @@ b167a69b28fe"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
-  RowBox[{"AutoAim", "[", 
-   RowBox[{"x_", ",", "y_", ",", "z_", ","}], "]"}]}]], "Input",
+  RowBox[{
+   RowBox[{"AutoAim", "[", 
+    RowBox[{"xposition_", ",", "yposition_", ",", "zposition_"}], "]"}], ":=",
+    " ", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "=", "xposition"}], ",", 
+       RowBox[{"y", "=", "yposition"}], ",", 
+       RowBox[{"z", "=", "zposition"}]}], "}"}], ",", 
+     RowBox[{
+      RowBox[{"direction", "=", 
+       RowBox[{"ArcTan", "[", 
+        FractionBox["y", "x"], "]"}]}], ";"}]}], "]"}], 
+   RowBox[{"(*", 
+    RowBox[{
+    "this", " ", "is", " ", "the", " ", "direction", " ", "and", " ", "angle",
+      " ", "if", " ", "there", " ", "is", " ", "no", " ", "air", " ", 
+     "resistance", " ", "or", " ", "wind"}], "*)"}]}]}]], "Input",
  CellChangeTimes->{{3.858862743268899*^9, 3.858862791888542*^9}, 
-   3.85886321488962*^9},ExpressionUUID->"0faa4155-cbbb-4cc9-8058-\
+   3.85886321488962*^9, {3.8588640679717903`*^9, 3.8588641440542774`*^9}, {
+   3.858864198619972*^9, 3.8588642894341097`*^9}, {3.8588643281664667`*^9, 
+   3.858864377119842*^9}},ExpressionUUID->"0faa4155-cbbb-4cc9-8058-\
 c1ffa797440e"]
 }, Open  ]]
 }, Open  ]]
@@ -2317,7 +2337,7 @@ Cell[1181, 40, 1103, 21, 288, "Text",ExpressionUUID->"f76d6f9e-5975-479b-a576-10
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2321, 66, 166, 3, 67, "Section",ExpressionUUID->"0a68ed2b-4f5b-4c04-bfcb-a49ef99356b7"],
-Cell[2490, 71, 2104, 53, 218, "Input",ExpressionUUID->"40abb526-b869-4001-a465-3e9e0a597418"]
+Cell[2490, 71, 2104, 53, 162, "Input",ExpressionUUID->"40abb526-b869-4001-a465-3e9e0a597418"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[4631, 129, 175, 3, 67, "Section",ExpressionUUID->"6a1cbe25-49c6-4cf0-be9a-79ab5dc76cb8"],
@@ -2331,7 +2351,7 @@ Cell[10797, 299, 118227, 1972, 239, 87099, 1461, "CachedBoxData", "BoxData", "Ou
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[129085, 2278, 165, 3, 67, "Section",ExpressionUUID->"9c800ef1-fc34-4e45-9adc-b167a69b28fe"],
-Cell[129253, 2283, 286, 6, 48, "Input",ExpressionUUID->"0faa4155-cbbb-4cc9-8058-c1ffa797440e"]
+Cell[129253, 2283, 1080, 26, 103, "Input",ExpressionUUID->"0faa4155-cbbb-4cc9-8058-c1ffa797440e"]
 }, Open  ]]
 }, Open  ]]
 }
